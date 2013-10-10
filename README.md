@@ -23,7 +23,7 @@ node script.js -v
 License
 -------
 
-[DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE]()
+[DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE](https://github.com/pauldijou/fontawesomeToJson/blob/master/LICENSE)
 
 Author
 ------
