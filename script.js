@@ -27,7 +27,7 @@ https.get('https://raw.github.com/FortAwesome/Font-Awesome/master/css/font-aweso
       }
     }
 
-    var regexIcons = /\.(icon\-[a-zA-Z0-9\-]+):before(?:,\n\.(icon\-[a-zA-Z0-9\-]+):before)*\s*{\n\s*content:\s*"\\([a-zA-Z0-9]{4})";\n}/g;
+    var regexIcons = /\.(fa\-[a-zA-Z0-9\-]+):before(?:,\n\.(fa\-[a-zA-Z0-9\-]+):before)*\s*{\n\s*content:\s*"\\([a-zA-Z0-9]{4})";\n}/g;
     var result;
     
     while ((result = regexIcons.exec(data)) !== null) {
